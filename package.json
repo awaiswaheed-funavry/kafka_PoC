@@ -1,0 +1,26 @@
+{
+  "name": "kafka_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaiswaheed-funavry/kafka_PoC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awaiswaheed-funavry/kafka_PoC/issues"
+  },
+  "homepage": "https://github.com/awaiswaheed-funavry/kafka_PoC#readme",
+  "dependencies": {
+    "avsc": "^5.7.0",
+    "kafka-node": "^5.0.0",
+    "node-rdkafka": "^2.10.1"
+  }
+}
